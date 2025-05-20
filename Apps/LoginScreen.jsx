@@ -35,7 +35,7 @@ return (
       mode="outlined"
       style={styles.inputBox}
       outlineColor="#426bba"s
-      left={<TextInput.Icon icon="email" color="#426bba" />}
+      left={<TextInput.Icon icon="email" color="#262626" />}
       theme={{
        colors: {
         primary: '#426bba',
@@ -54,7 +54,7 @@ return (
         outlineColor="#426bba"
         secureTextEntry={!showPassword}
         style={styles.inputBox}
-        left={<TextInput.Icon icon="lock" color="#426bba" />}
+        left={<TextInput.Icon icon="lock" color="#262626" />}
         right={
           <TextInput.Icon
             icon={showPassword ? 'eye-off' : 'eye'}

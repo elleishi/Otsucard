@@ -266,6 +266,8 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: 40,
+    marginHorizontal: 20,
   },
 
 row2: {
@@ -385,8 +387,26 @@ datePickerButtonText: {
   fontSize: 16,
   color: '#3f3f3f',
   marginRight: 15,
-}
+},
 
+// terms and condition
+termsContainer: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  marginVertical: 10,
+},
+termsTextContainer: {
+  flex: 1,
+  marginLeft: 5,
+},
+termsText: {
+  fontSize: 14,
+  color: '#3f3f3f',
+},
+termsLink: {
+  color: '#426bba',
+  textDecorationLine: 'underline',
+},
 
 });
 

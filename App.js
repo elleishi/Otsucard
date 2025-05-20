@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Provider as PaperProvider } from 'react-native-paper';
 import LoginScreen from './Apps/LoginScreen';
 import RegisterScreen from './Apps/RegisterScreen';
+import Tabs from './Apps/Tabs';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
 
     <NavigationContainer>
         <StatusBar style="auto" />
-          <Stack.Navigator initialRouteName="Register">
+          <Stack.Navigator initialRouteName="Tabs">
+            <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false }} />
           <Stack.Screen name="Register" component={RegisterScreen} options={{ headerShown: false }} />
             <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
 
